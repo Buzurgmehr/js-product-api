@@ -19,10 +19,8 @@ h1 {
 }
 
 h5 {
-    font-weight: bolder;
-    line-height: 1.7em;
-    font-size: 1.2em;
-
+    text-align: center;
+    font-size: 14px;
 }
 
 h6 {
@@ -31,7 +29,6 @@ h6 {
     font-weight: bolder;
 }
 
-/* Product Layout */
 
 .product-filter {
     display: flex;
@@ -73,15 +70,19 @@ label {
     background-color: #FFF;
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
     margin-left: 10px;
+    margin-bottom: 15px;
+    width: 50px;
 }
 
 .product-image img {
-    width: 100%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+
 }
 
 .product-info {
-    margin-top: auto;
-    padding-top: 20px;
     text-align: center;
 }
 
